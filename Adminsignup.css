@@ -1,0 +1,82 @@
+body{
+    background-image: linear-gradient(rgb(180,90,182),rgb(79,40,80));
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    margin-left: 10px;
+    margin-bottom: 10%;
+
+}
+
+.logo{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    float:left;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.headerButtons{
+    display: flex;
+    top: 20px;
+    right:20px;
+    padding:10px 20px;
+    align-items: flex-end;
+    gap: 20px;
+    float: right;
+}
+
+.signup{
+    padding: 10px 20px;
+    background-color:#791279;  ;
+    color: white;
+    border: none;
+    box-shadow: turquoise;
+    border-radius: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.signup:hover{
+    background-color:rgb(196, 242, 152);
+    color: black;
+}
+
+h1{
+    
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.signup-box{
+    background: rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 15px;
+    
+    
+    
+}
+
+.signup-heading{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.labels{
+    display: flex;
+    align-items: flex-start;
+}
+
+.inputf{
+    display: flex;
+    align-items: flex-end;
+}

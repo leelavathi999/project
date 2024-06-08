@@ -1,0 +1,105 @@
+/* header.css */
+
+body {
+    background-image: linear-gradient(rgb(180,90,182),rgb(79,40,80));
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  .header{
+    margin-left: 10px;
+  
+  }
+  
+  .logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    float: left;
+    border: 2px solid #000;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .headerButtons {
+    display: flex;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    padding: 10px 20px;
+    align-items: flex-end;
+    float: right;
+    gap: 20px; /* Gap between buttons */
+  }
+  
+  .logintitle,
+  .signuptitle {
+    padding: 10px 25px;
+    background-color: #791279; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease; /* Transition effect */
+  }
+  
+  .logintitle:hover,
+  .signuptitle:hover {
+    background-color:rgb(79,40,80); /* Button background color on hover */
+  }
+  
+  /* Animation for login button */
+  .logintitle {
+    animation: pulse 1.5s infinite alternate;
+  }
+  
+  /* Animation for sign up button */
+  .signuptitle {
+    animation: pulse 1.5s infinite alternate-reverse;
+  }
+  
+  .bodyContent {
+    padding: 50px;
+    margin-left: 40px;
+  }
+  
+  .bodyContent p {
+
+    font-size: 70px;
+    color: #f8f7f7;
+    float: left;
+    animation: slideInFromBottom 1s ease ; /* Adjust timings and animations as needed */
+
+  }
+
+  .image{
+    margin-right: 40px;
+   
+  }
+  .headerImg{
+    height: 400px;
+    float: right;
+    margin-top: 100px;
+    transition: transform 0.5s ease;
+  }
+  .headerImg:hover {
+    transform: scale(1.1); /* Increase the size of the image */
+  }
+  @keyframes slideInFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+ 
+  
+
+  
+
+  

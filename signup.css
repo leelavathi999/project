@@ -1,0 +1,124 @@
+body{
+    background-image: linear-gradient(rgb(180,90,182),rgb(79,40,80));
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    margin-left: 10px;
+
+
+}
+
+.logo{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    float:left;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.headerButtons{
+    display: flex;
+    top: 20px;
+    right:20px;
+    padding:10px 20px;
+    align-items: flex-end;
+    gap: 20px;
+    float: right;
+}
+
+.home{
+    padding: 10px 20px;
+    background-color:#791279;  ;
+    color: white;
+    border: none;
+    box-shadow: turquoise;
+    border-radius: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.home:hover{
+    background-color:rgb(196, 242, 152);
+    color: black;
+}
+
+h1{
+    
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+.role{
+    display: flex;
+    align-items: flex-start;
+    letter-spacing: 3px;
+    font-size: larger;
+}
+
+.round{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.adminrole{
+ border-top-left-radius: 50% 50%; 
+ border-top-right-radius: 50% 50%;
+border-bottom-right-radius: 50% 50%;
+border-bottom-left-radius: 50% 50%; 
+display: inline-flex;
+background-color: white;
+width: 200px;
+}
+
+.wardenrole{
+    border-top-left-radius: 50% 50%; 
+    border-top-right-radius: 50% 50%;
+   border-bottom-right-radius: 50% 50%;
+   border-bottom-left-radius: 50% 50%; 
+   display: inline-flex;
+   width: 200px;
+}
+
+.studentrole{
+    border-top-left-radius: 50% 50%; 
+    border-top-right-radius: 50% 50%;
+   border-bottom-right-radius: 50% 50%;
+   border-bottom-left-radius: 50% 50%; 
+   display: inline-flex;
+   width: 200px;
+   background-color: white;
+}
+
+.roletext{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+button{
+    padding: 10px 30px;
+    background-color:#791279;  ;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width: 200px;
+}
+
+button:hover{
+    background-color:rgb(196, 242, 152);
+    color: black;
+}
